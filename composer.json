@@ -1,0 +1,27 @@
+{
+  "name": "mx-check/src",
+  "description": "Code quality and interface detection tools",
+  "keywords": ["code", "checkout", "interface", "widget", "plugin"],
+  "homepage": "https://github.com/Sinnoo/Checkout.git",
+  "type": "php-components",
+  "authors": [
+    {
+      "name": "Sinnoo",
+      "email": "1471674872@qq.com"
+    }
+  ],
+  "require" : {
+    "php": ">=5.6.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "MxCheck\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
