@@ -1,3 +1,7 @@
 <?php
-echo "test";
+
+define("CHECKS", realpath('./'));
+
+define("CORE", CHECKS.'/Common/Core');
+
 ?>
